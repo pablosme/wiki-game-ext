@@ -1,0 +1,23 @@
+{
+  "name": "wikipedia-game-ext",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Manifest V3 Browser Extension for wikipedia-game using WXT, Vanilla TypeScript and Chrome Side Panel API",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "postinstall": "wxt prepare",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chrome": "^0.0.304",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.6",
+    "wxt": "^0.19.28"
+  }
+}
